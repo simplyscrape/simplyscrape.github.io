@@ -53,6 +53,6 @@ function validateWebsite(website)
 }
 
 var unsupported_sites = [
-	'linkedin.com',
-	'facebook.com'
+	'linkedin.com'//,
+	//'facebook.com'
 ]
