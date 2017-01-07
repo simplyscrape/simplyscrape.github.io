@@ -26,8 +26,13 @@ $('a#submit').click(function(){
 				login: login
 			},
 			dataType: "json"
-		}).done(function(data){
-			swal("Thanks!", "We'll get back to you shortly!", "success")
+		})
+		swal({
+				title: "Thanks!", 
+				text: "We'll get back to you shortly!", 
+				type: "success"
+			}, function(){
+				window.location.hash = 'faq'
 		});
 	}
 })
